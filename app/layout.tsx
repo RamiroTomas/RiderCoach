@@ -18,6 +18,9 @@ const anton = Anton({
 export const metadata: Metadata = {
   title: 'Rider Coach | Personal Trainer',
   description: 'Entrenamiento personal presencial y online con Rider Coach. Planes de alimentación, rutinas personalizadas y seguimiento constante en La Paz, Canelones, Uruguay.',
+  icons: {
+    icon: '/firma.svg',
+  },
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
