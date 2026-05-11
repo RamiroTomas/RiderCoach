@@ -32,11 +32,14 @@ export default function Footer() {
           <p className="text-xs text-white/30 uppercase tracking-[0.2em]">
             © {new Date().getFullYear()} Rider Coach. Todos los derechos reservados.
           </p>
-          <div className="flex space-x-8 text-[10px] text-white/20 uppercase tracking-[0.2em] font-bold">
-            <Link href="#" className="hover:text-white">Privacidad</Link>
-            <Link href="#" className="hover:text-white">Términos</Link>
-            <Link href="#" className="hover:text-white">Cookies</Link>
-          </div>
+          <a
+            href="https://www.instagram.com/ramatomas_/?hl=es"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-xs text-white/30 uppercase tracking-[0.2em] font-bold hover:text-white transition-colors"
+          >
+            RTwebs
+          </a>
         </div>
       </div>
     </footer>

@@ -26,24 +26,20 @@ export default function Contact() {
                 <p className="text-lg font-bold">La Paz, Canelones, Uruguay</p>
               </div>
             </div>
-            <div className="flex items-center space-x-6">
-              <div className="w-14 h-14 bg-white/5 border border-white/10 flex items-center justify-center text-lime-400">
-                <Mail size={24} />
-              </div>
-              <div>
-                <p className="text-xs font-bold uppercase tracking-widest text-white/40">Email</p>
-                <p className="text-lg font-bold">ramirotomasdearmas@gmail.com</p>
-              </div>
-            </div>
-            <div className="flex items-center space-x-6">
-              <div className="w-14 h-14 bg-white/5 border border-white/10 flex items-center justify-center text-lime-400">
+            <a
+              href="https://w.app/ridercoach"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center space-x-6 group"
+            >
+              <div className="w-14 h-14 bg-white/5 border border-white/10 flex items-center justify-center text-lime-400 group-hover:bg-lime-400 group-hover:text-black transition-all">
                 <Phone size={24} />
               </div>
               <div>
-                <p className="text-xs font-bold uppercase tracking-widest text-white/40">WhatsApp</p>
+                <p className="text-xs font-bold uppercase tracking-widest text-white/40 group-hover:text-lime-400">WhatsApp</p>
                 <p className="text-lg font-bold">+598 91 749 293</p>
               </div>
-            </div>
+            </a>
             <a 
               href="https://www.instagram.com/ridercoach_/?hl=es" 
               target="_blank" 

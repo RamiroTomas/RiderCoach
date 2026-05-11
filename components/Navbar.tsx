@@ -40,15 +40,15 @@ export default function Navbar() {
       }`}
     >
       <div className="container mx-auto px-6 flex justify-between items-center">
-        <Link href="/" className="flex items-center space-x-3 text-2xl font-display uppercase italic tracking-tighter text-white">
-          <span>Rider<span className="text-lime-400">Coach</span></span>
+        <Link href="/" className="flex items-center space-x-2 text-2xl font-display uppercase italic tracking-tighter text-white">
           <Image 
             src="/firma.svg" 
             alt="Firma Rider Coach" 
             width={80} 
             height={40} 
-            className="invert brightness-0"
+            className="invert brightness-0 -mt-1 rotate-45"
           />
+          <span>Rider<span className="text-lime-400">Coach</span></span>
         </Link>
 
         {/* Desktop Nav */}
